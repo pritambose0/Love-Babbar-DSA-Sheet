@@ -1,0 +1,7 @@
+class Solution {
+    static int countSquares(int N) {
+        int res = (int)Math.sqrt(N);
+        if(res*res == N) return res-1;
+        else return res;
+    }
+}
